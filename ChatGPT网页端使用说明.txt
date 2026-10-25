@@ -1,0 +1,12 @@
+Media Analysis Skill 已做成用户级 Codex / Claude Code 的 SKILL.md。
+本 ZIP 不等于在 ChatGPT 网页端完成全局插件安装；不能让所有 ChatGPT 新会话自动下载抖音。
+
+本地 Agent 中粘贴媒体链接，要求：使用 media-analysis 先获取完整素材并转录/识别，再分析。
+
+如果要在 ChatGPT 网页端分析：
+1. 在本机通过 media_analysis.py run 获取并处理素材。
+2. 把结果目录中的 content.md 上传到 ChatGPT 新会话。
+3. 若要核对画面/听力，额外上传 originals 中的相关媒体，以及 evidence.jsonl。
+4. 请 AI 必须遵循原文证据，图文逐张引用，音频标注时间戳；若缺页/缺帧应明确说明。
+
+默认输出 ~/MediaAnalysis/，不上传任何私人文件到第三方云服务。

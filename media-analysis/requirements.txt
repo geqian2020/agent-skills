@@ -1,0 +1,11 @@
+# Optional dependencies: install only the features you need.
+# General video download (can also install yt-dlp in another environment):
+yt-dlp>=2025.1
+# Blog/article extraction:
+beautifulsoup4>=4.12,<5
+# Audio ASR requires externally prepared, trusted Whisper model weights:
+# openai-whisper==20250625
+# OCR requires installed local ONNX model from wheel:
+# rapidocr-onnxruntime==1.4.4
+# Pillow is required for image validity checks:
+# Pillow>=10,<13

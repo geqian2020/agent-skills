@@ -1,0 +1,31 @@
+# Python / test artifacts
+__pycache__/
+.pytest_cache/
+*.py[cod]
+.venv/
+venv/
+
+# Media and evidence (private, potentially copyrighted)
+MediaAnalysis/
+originals/
+transcripts/
+ocr.jsonl
+evidence.jsonl
+content.md
+manifest.json
+*.mp4
+*.mp3
+*.m4a
+*.wav
+*.mkv
+*.webm
+*.jpg
+*.jpeg
+*.png
+*.webp
+
+# Local config and credentials
+.env
+.env.*
+*.log
+.DS_Store

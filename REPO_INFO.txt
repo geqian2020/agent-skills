@@ -1,0 +1,6 @@
+GitHub 建议仓库名：agent-skills
+建议描述：Reusable Agent Skills - media analysis, podcast transcription, OCR and source-backed review
+建议公开（代码内不包含个人素材或凭据）。如希望私有，选 Private。
+
+建好空仓库后，可由本会话的 GitHub 连接上传此包中的源码。
+注意：此 ZIP 是准备好的仓库文件，还不是 GitHub 已创建的仓库。
